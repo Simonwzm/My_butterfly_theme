@@ -61,12 +61,12 @@ hexo.extend.filter.register('before_generate', () => {
 
     lazyload: 'https://cdn.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js',
     instantpage: 'https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js',
-    typed: 'https://cdn.jsdelivr.net/npm/typed.js/lib/typed.min.js',
+    typed: 'https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js',
     pangu: 'https://cdn.jsdelivr.net/npm/pangu/dist/browser/pangu.min.js',
 
     // photo
-    fancybox_css_v4: 'https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css',
-    fancybox_v4: 'https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js',
+    fancybox_css_v4: 'https://cdn.bootcdn.net/ajax/libs/fancybox/3.5.7/jquery.fancybox.css',
+    fancybox_v4: 'https://cdn.bootcdn.net/ajax/libs/fancybox/3.5.7/jquery.fancybox.js',
     medium_zoom: 'https://cdn.jsdelivr.net/npm/medium-zoom/dist/medium-zoom.min.js',
 
     // snackbar
